@@ -57,7 +57,7 @@ describe("server module", function() {
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(err).to.be.null;
-        expect(res.body.Title).to.equal('Guardians of the Galaxy Vol. 2');
+        expect(res.body.Title).to.equal('Guardians of the Galaxy: Vol. 2');
         done();
     })
 	});
@@ -68,7 +68,7 @@ describe("server module", function() {
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(err).to.be.null;
-        expect(res.body.Title).to.equal('Guardians of the Galaxy Vol. 2');
+        expect(res.body.Title).to.equal('Guardians of the Galaxy: Vol. 2');
         done();
     })
   });
